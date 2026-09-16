@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class CustomText extends StatelessWidget {
-  
-  const CustomText({super.key});
+  final String text;
+  const CustomText({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Text(text);
   }
 }
