@@ -11,6 +11,7 @@ class CustomTextfield extends StatelessWidget {
     return TextField(
       obscureText: obscureText,
       controller: controller,
+      keyboardType: TextInputType.number,
       decoration: InputDecoration(
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(10)

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class KalkulatorPage extends StatelessWidget {
-  const KalkulatorPage({super.key});
+class Kalkulatorpage extends StatelessWidget {
+  const Kalkulatorpage({super.key});
 
   @override
   Widget build(BuildContext context) {
