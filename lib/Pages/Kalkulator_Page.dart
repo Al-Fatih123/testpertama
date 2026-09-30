@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:testpertama/Components/custom_textfield.dart';
+import 'package:testpertama/Components/custom_textfield_kakulator.dart';
 import 'package:testpertama/Components/custom_button.dart';
 import 'package:testpertama/Controller/Kalkulator_Controller.dart';
 import 'package:get/get.dart';
@@ -22,11 +22,11 @@ class KalkulatorPage extends StatelessWidget {
         children: [
           Container(
             margin: const EdgeInsets.all(10),
-            child: CustomTextfield(controller: angka1Controller, myHint: "input angka 1", obscureText: false),
+            child: CustomTextfield(controller_kaklulator: angka1Controller, myHint: "input angka 1", obscureText: false),
           ),
           Container(
             margin: const EdgeInsets.all(10),
-            child: CustomTextfield(controller: angka2Controller, myHint: "input angka 2", obscureText: false),
+            child: CustomTextfield(controller_kaklulator: angka2Controller, myHint: "input angka 2", obscureText: false),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
