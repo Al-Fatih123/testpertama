@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Flutter Demo',
-      initialRoute: Routes.registration,
+      initialRoute: Routes.listmakanan,
       getPages: Routes.pages,
     );
     
