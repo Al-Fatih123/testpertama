@@ -6,5 +6,12 @@ class makananModel {
   // tambahkan properti deskripsiMakanan untuk menyimpan deskripsi makanan
 
  //ini adalah constructor untuk class makananModel
-  makananModel({required this.namaMakanan, required this.hargaMakanan, required this.imageUrl, required this.deskripsiMakanan});
+  makananModel(
+    {
+      required this.namaMakanan, 
+      required this.hargaMakanan, 
+      required this.imageUrl, 
+      required this.deskripsiMakanan
+      }
+  );
 }

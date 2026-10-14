@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:testpertama/Components/custom_textfield.dart';
 import 'package:testpertama/Components/custom_button.dart';
+import 'package:testpertama/Components/custom_text.dart';
+
 class LoginClonePage extends StatelessWidget {
   final TextEditingController username;
   final TextEditingController password;
@@ -11,11 +13,11 @@ class LoginClonePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Login Page"),
+        title: CustomText(text: "Login Clone"),
       ),
       body: Column(
         children: [
-          Text("Intragam", style: TextStyle(fontSize: 24, color: Colors.blue, fontStyle: FontStyle.italic)),
+          CustomText(text: "INSTAGRAM"),
           Container(
             margin: EdgeInsets.all(10),
             child: CustomTextfield(controller: username, myHint: "Enter your username", obscureText: false)),

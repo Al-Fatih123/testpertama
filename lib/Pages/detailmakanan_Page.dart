@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:testpertama/Controller/detailmakanan_Controller.dart';
+import 'package:testpertama/Components/custom_text.dart';
+
 
 class DetailmakananPage extends StatelessWidget {
   const DetailmakananPage({super.key});
@@ -10,7 +12,7 @@ class DetailmakananPage extends StatelessWidget {
     final controller = Get.put(DetailmakananController());
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detail Makanan'),
+        title: CustomText(text: "Detail Makanan"),
       ),
       body: Column(
         children: [

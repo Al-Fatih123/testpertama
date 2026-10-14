@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:testpertama/Components/custom_textfield_kakulator.dart';
 import 'package:testpertama/Components/custom_button.dart';
+import 'package:testpertama/Components/custom_text.dart';
 import 'package:testpertama/Controller/Kalkulator_Controller.dart';
 import 'package:get/get.dart';
 
@@ -16,7 +17,7 @@ class KalkulatorPage extends StatelessWidget {
     TextEditingController angka2Controller = TextEditingController();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Kalkulator'),
+        title: CustomText(text: "Kalkulator"),
       ),
       body: Column(
         children: [

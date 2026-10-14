@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:testpertama/Components/custom_textfield.dart';
 import 'package:testpertama/Components/custom_dropdwon.dart';
 import 'package:testpertama/Components/custom_button.dart';
+import 'package:testpertama/Components/custom_text.dart';
 import 'package:testpertama/routes.dart';
 import 'package:get/get.dart';
 
@@ -18,7 +19,7 @@ class RegistrationPage extends StatelessWidget {
     final dropdownValue = Rxn<String>();
 
     return Scaffold(
-      appBar: AppBar(title: Text("Registration Page")),
+      appBar: AppBar(title: CustomText(text: "Registration Page")),
       body: Column(
         children: [
           CustomTextfield(controller: txtNama, myHint: "input name",obscureText: false,),
